@@ -41,3 +41,26 @@ header a{
 }
 
 /* end header section */
+
+/* begin main nav */
+nav{
+	display:flex;
+	justify-content: center;
+	background-color:#000066;
+	padding:1.2rem 0;
+	letter-spacing: 0.2rem;
+	position:fixed;
+}
+
+nav a{
+	color:white;
+	margin: 0 2rem;
+	font-weight:bold;
+	text-decoration:none;
+	transition: color 0.5s;
+}
+
+nav a:hover{
+	color: red;
+}
+/* end main nav */
