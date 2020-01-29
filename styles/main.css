@@ -1,0 +1,43 @@
+*{
+	font-family: 'Bebas Neue', cursive;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/* begin header section */
+header{
+	display:flex;
+	justify-content: space-between;
+	letter-spacing: 0.2rem;
+	padding:1rem;
+}
+
+header a{
+	text-decoration:none;
+	color: black;
+}
+
+/*header>div{
+	border:1px solid red;
+}*/
+
+.header-left{
+	flex-basis: 35%;
+}
+
+.header-right{
+	flex-basis: 35%;
+	text-align:right;
+}
+
+.header-middle{
+	text-align:center;
+	flex-basis: 30%;
+}
+
+.header-middle img{
+	width:300px;
+}
+
+/* end header section */
